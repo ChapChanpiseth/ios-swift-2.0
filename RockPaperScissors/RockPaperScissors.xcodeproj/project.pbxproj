@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B40FF30B1B79AFF500934282 /* RoshaboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40FF30A1B79AFF500934282 /* RoshaboTests.swift */; };
+		B490CAA81B7EFA9F00E6A447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490CAA21B7EFA9F00E6A447 /* AppDelegate.swift */; };
+		B490CAAA1B7EFA9F00E6A447 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B490CAA41B7EFA9F00E6A447 /* Images.xcassets */; };
+		B490CAAC1B7EFA9F00E6A447 /* RPSMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490CAA61B7EFA9F00E6A447 /* RPSMatch.swift */; };
+		B490CAAD1B7EFA9F00E6A447 /* RPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490CAA71B7EFA9F00E6A447 /* RPSViewController.swift */; };
+		B490CAB41B7F801B00E6A447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B490CAB11B7EFBDE00E6A447 /* Main.storyboard */; };
+		B490CAB51B7F801B00E6A447 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B490CAAE1B7EFBCB00E6A447 /* LaunchScreen.xib */; };
+		B4C961471BC397FB00617DEB /* RPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C961461BC397FB00617DEB /* RPS.swift */; };
+		B4C961491BC3980600617DEB /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C961481BC3980600617DEB /* ResultViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B40FF3051B79AFF500934282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B40FF2E71B79AFF500934282 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B40FF2EE1B79AFF500934282;
+			remoteInfo = Roshabo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B40FF2EF1B79AFF500934282 /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B40FF3041B79AFF500934282 /* RockPaperScissorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B40FF3091B79AFF500934282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B40FF30A1B79AFF500934282 /* RoshaboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshaboTests.swift; sourceTree = "<group>"; };
+		B490CAA21B7EFA9F00E6A447 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = RockPaperScissors/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		B490CAA41B7EFA9F00E6A447 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RockPaperScissors/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		B490CAA51B7EFA9F00E6A447 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RockPaperScissors/Info.plist; sourceTree = SOURCE_ROOT; };
+		B490CAA61B7EFA9F00E6A447 /* RPSMatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RPSMatch.swift; path = RockPaperScissors/RPSMatch.swift; sourceTree = SOURCE_ROOT; };
+		B490CAA71B7EFA9F00E6A447 /* RPSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RPSViewController.swift; path = RockPaperScissors/RPSViewController.swift; sourceTree = SOURCE_ROOT; };
+		B490CAAF1B7EFBCB00E6A447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = RockPaperScissors/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		B490CAB21B7EFBDE00E6A447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RockPaperScissors/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		B4C961461BC397FB00617DEB /* RPS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPS.swift; sourceTree = SOURCE_ROOT; };
+		B4C961481BC3980600617DEB /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B40FF2EC1B79AFF500934282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40FF3011B79AFF500934282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B40FF2E61B79AFF500934282 = {
+			isa = PBXGroup;
+			children = (
+				B40FF2F11B79AFF500934282 /* RockPaperScissors */,
+				B40FF3071B79AFF500934282 /* RoshaboTests */,
+				B40FF2F01B79AFF500934282 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B40FF2F01B79AFF500934282 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B40FF2EF1B79AFF500934282 /* RockPaperScissors.app */,
+				B40FF3041B79AFF500934282 /* RockPaperScissorsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B40FF2F11B79AFF500934282 /* RockPaperScissors */ = {
+			isa = PBXGroup;
+			children = (
+				B490CAB11B7EFBDE00E6A447 /* Main.storyboard */,
+				B490CAAE1B7EFBCB00E6A447 /* LaunchScreen.xib */,
+				B4C961481BC3980600617DEB /* ResultViewController.swift */,
+				B4C961461BC397FB00617DEB /* RPS.swift */,
+				B490CAA21B7EFA9F00E6A447 /* AppDelegate.swift */,
+				B490CAA61B7EFA9F00E6A447 /* RPSMatch.swift */,
+				B490CAA71B7EFA9F00E6A447 /* RPSViewController.swift */,
+				B490CAA41B7EFA9F00E6A447 /* Images.xcassets */,
+				B40FF2F21B79AFF500934282 /* Supporting Files */,
+			);
+			name = RockPaperScissors;
+			path = Roshabo;
+			sourceTree = "<group>";
+		};
+		B40FF2F21B79AFF500934282 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B490CAA51B7EFA9F00E6A447 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B40FF3071B79AFF500934282 /* RoshaboTests */ = {
+			isa = PBXGroup;
+			children = (
+				B40FF30A1B79AFF500934282 /* RoshaboTests.swift */,
+				B40FF3081B79AFF500934282 /* Supporting Files */,
+			);
+			path = RoshaboTests;
+			sourceTree = "<group>";
+		};
+		B40FF3081B79AFF500934282 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B40FF3091B79AFF500934282 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B40FF2EE1B79AFF500934282 /* RockPaperScissors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B40FF30E1B79AFF500934282 /* Build configuration list for PBXNativeTarget "RockPaperScissors" */;
+			buildPhases = (
+				B40FF2EB1B79AFF500934282 /* Sources */,
+				B40FF2EC1B79AFF500934282 /* Frameworks */,
+				B40FF2ED1B79AFF500934282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockPaperScissors;
+			productName = Roshabo;
+			productReference = B40FF2EF1B79AFF500934282 /* RockPaperScissors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B40FF3031B79AFF500934282 /* RockPaperScissorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B40FF3111B79AFF500934282 /* Build configuration list for PBXNativeTarget "RockPaperScissorsTests" */;
+			buildPhases = (
+				B40FF3001B79AFF500934282 /* Sources */,
+				B40FF3011B79AFF500934282 /* Frameworks */,
+				B40FF3021B79AFF500934282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B40FF3061B79AFF500934282 /* PBXTargetDependency */,
+			);
+			name = RockPaperScissorsTests;
+			productName = RoshaboTests;
+			productReference = B40FF3041B79AFF500934282 /* RockPaperScissorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B40FF2E71B79AFF500934282 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = edu.self;
+				TargetAttributes = {
+					B40FF2EE1B79AFF500934282 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B40FF3031B79AFF500934282 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B40FF2EE1B79AFF500934282;
+					};
+				};
+			};
+			buildConfigurationList = B40FF2EA1B79AFF500934282 /* Build configuration list for PBXProject "RockPaperScissors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B40FF2E61B79AFF500934282;
+			productRefGroup = B40FF2F01B79AFF500934282 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B40FF2EE1B79AFF500934282 /* RockPaperScissors */,
+				B40FF3031B79AFF500934282 /* RockPaperScissorsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B40FF2ED1B79AFF500934282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B490CAB41B7F801B00E6A447 /* Main.storyboard in Resources */,
+				B490CAB51B7F801B00E6A447 /* LaunchScreen.xib in Resources */,
+				B490CAAA1B7EFA9F00E6A447 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40FF3021B79AFF500934282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B40FF2EB1B79AFF500934282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B490CAA81B7EFA9F00E6A447 /* AppDelegate.swift in Sources */,
+				B490CAAC1B7EFA9F00E6A447 /* RPSMatch.swift in Sources */,
+				B4C961491BC3980600617DEB /* ResultViewController.swift in Sources */,
+				B490CAAD1B7EFA9F00E6A447 /* RPSViewController.swift in Sources */,
+				B4C961471BC397FB00617DEB /* RPS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40FF3001B79AFF500934282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B40FF30B1B79AFF500934282 /* RoshaboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B40FF3061B79AFF500934282 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B40FF2EE1B79AFF500934282 /* RockPaperScissors */;
+			targetProxy = B40FF3051B79AFF500934282 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B490CAAE1B7EFBCB00E6A447 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B490CAAF1B7EFBCB00E6A447 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B490CAB11B7EFBDE00E6A447 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B490CAB21B7EFBDE00E6A447 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B40FF30C1B79AFF500934282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B40FF30D1B79AFF500934282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B40FF30F1B79AFF500934282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = RockPaperScissors/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KDD.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = RockPaperScissors;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B40FF3101B79AFF500934282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = RockPaperScissors/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KDD.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = RockPaperScissors;
+			};
+			name = Release;
+		};
+		B40FF3121B79AFF500934282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RoshaboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KDD.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = RockPaperScissorsTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roshabo.app/Roshabo";
+			};
+			name = Debug;
+		};
+		B40FF3131B79AFF500934282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RoshaboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KDD.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = RockPaperScissorsTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roshabo.app/Roshabo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B40FF2EA1B79AFF500934282 /* Build configuration list for PBXProject "RockPaperScissors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40FF30C1B79AFF500934282 /* Debug */,
+				B40FF30D1B79AFF500934282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B40FF30E1B79AFF500934282 /* Build configuration list for PBXNativeTarget "RockPaperScissors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40FF30F1B79AFF500934282 /* Debug */,
+				B40FF3101B79AFF500934282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B40FF3111B79AFF500934282 /* Build configuration list for PBXNativeTarget "RockPaperScissorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40FF3121B79AFF500934282 /* Debug */,
+				B40FF3131B79AFF500934282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B40FF2E71B79AFF500934282 /* Project object */;
+}
